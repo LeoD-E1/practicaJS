@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Templates</title>
+</head>
+
+<body>
+
+  <h1>Fragments</h1>
+  <ul id="lista"></ul>
+
+  <!----Las templates nos sirven para hacer una estructura replicable en donde sea, porque no se 
+        visualiza a menos que nosotros queramos, es una guia que nosotros vamos a utilizar con JS-->
+  <template id="template">
+    <li class="list">
+      <b>Nombre: </b> <span class="text-danger">${item}</span>
+    </li>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
